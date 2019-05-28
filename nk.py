@@ -1,8 +1,6 @@
-list=input().split(" ")
-m=list.pop(0)
-k=list.pop(0)
-n=int(k)
+n,k=input().split(" ")
+lis=[int(x) for x in input().split()]
 sum = 0
-for num in range(0,n+1,1):
+for num in range(0,int(k)+1,1):
     sum = sum+num
-print(sum )
+print(sum)
