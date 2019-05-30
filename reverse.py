@@ -1,2 +1,3 @@
-str=input()
-print(str[::-1])
+#sddinesh
+string=input()
+print(string[::-1])
