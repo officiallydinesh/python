@@ -1,6 +1,6 @@
 s=input()
 rev = ''.join(reversed(s)) 
 if rev==s:
-    print("Yes")
+    print("yes")
 else:
-    print("No")
+    print("no")
